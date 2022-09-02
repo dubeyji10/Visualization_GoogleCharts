@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<style>
+    #chart_div{
+        left: auto;
+        min-width: 1000px;
+        min-height: 700px;
+    }
+    #B2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #adff7a;
+        font-size: larger;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization</title>
+    <script type="module" src="index.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <div id="B2"> 
+        <h1>Data is hosted in JSON format</h1>
+        Predictions for Per_Capita_in_USD 
+        <br> This is an interactive graph drag right to zoom , drag left to zoom out and right click to reset zoom
+    </div>
+    <div id="chart_div"></div>
+
+</body>
+</html>
